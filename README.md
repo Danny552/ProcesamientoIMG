@@ -111,7 +111,7 @@ Funciones:
 - `guardar_imagen()`  
 - `restaurar_original()`
 
- ![alt text](capturas\image.png)
+ ![alt text](capturas/image.png)
 
 ---
 
@@ -137,7 +137,8 @@ Aplica un umbral (por defecto 0.5) y genera una imagen blanco/negro.
 #### 🔸 Histograma
 Visualiza la distribución de intensidades de cada canal (R, G, B) con Matplotlib.
 
-![alt text](capturas\image-1.png)_Histograma RGB abierto tras aplicar contraste exponencial._
+![alt text](capturas/image-1.png)
+- _Histograma RGB abierto tras aplicar contraste exponencial._
 
 ---
 
@@ -151,11 +152,11 @@ self.img = imgControl.SumarBrillo(self.img, valor)
 self.img = imgControl.AjusteCanal(self.img, canal, ajuste)
 ```
 
-![alt text](capturas\image-2.png)
-_Antes del ajuste de brillo._
+![alt text](capturas/image-2.png)
+- _Antes del ajuste de brillo._
 
-![alt text](capturas\image-3.png)
-_Después del ajuste de brillo (0.30)._
+![alt text](capturas/image-3.png)
+- _Después del ajuste de brillo (0.30)._
 
 ### 🔹 4. Transformaciones geométricas
 
@@ -169,7 +170,7 @@ self.mostrar_imagen(self.img)
 
 El zoom es **no destructivo** — solo afecta la vista, no los valores internos.
 
-![alt text](capturas\image-4.png)
+![alt text](capturas/image-4.png)
 _Imagen rotada (51°) y ampliada visualmente (x1.8)._
 
 ---
@@ -186,8 +187,8 @@ self.img = imgControl.CombinarF(img1, img2, factor)
 - Si `factor = 1`, se muestra solo la imagen 1.  
 - Valores intermedios generan mezclas ponderadas.
 
-![alt text](capturas\image-5.png)
-_Resultado de la fusión de dos imágenes distintas (factor 0.4)._
+![alt text](capturas/image-5.png)
+- _Resultado de la fusión de dos imágenes distintas (factor 0.4)._
 
 ---
 
@@ -253,22 +254,22 @@ Esto facilita operaciones vectorizadas:
 > Inserta aquí tus imágenes de demostración en el orden sugerido:
 
 1. **Interfaz inicial sin imagen**
-   ![alt text](capturas\image-6.png)
+   ![alt text](capturas/image-6.png)
 
 2. **Imagen cargada**
-   ![alt text](capturas\image-7.png)
+   ![alt text](capturas/image-7.png)
 
 3. **Aplicación de grises**
-   ![alt text](capturas\image-8.png)
+   ![alt text](capturas/image-8.png)
 
 4. **Rotación y zoom visual**
-   ![alt text](capturas\image-9.png)
+   ![alt text](capturas/image-9.png)
 
 5. **Fusión de dos imágenes**
-   ![alt text](capturas\image-10.png)
+   ![alt text](capturas/image-10.png)
 
 6. **Histograma RGB**
-   ![alt text](capturas\image-11.png)
+   ![alt text](capturas/image-11.png)
 
 ---
 
