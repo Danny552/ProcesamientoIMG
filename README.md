@@ -251,8 +251,6 @@ Esto facilita operaciones vectorizadas:
 
 ## Capturas de funcionamiento
 
-> Inserta aquí tus imágenes de demostración en el orden sugerido:
-
 1. **Interfaz inicial sin imagen**
    ![alt text](capturas/image-6.png)
 
